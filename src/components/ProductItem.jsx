@@ -6,7 +6,7 @@ function ProductItem({ product }) {
    return (
       <section className="pt-4 px-3 lg:px-4">
          <div className="border border-gray-500 rounded overflow-hidden">
-            <Link to={`/products/${product.ID}`}>
+            <Link to={`/products/id/${product.ID}`}>
                <img className="w-full" src={product.cover} alt={product.title} />
             </Link>
             <div className="p-4">
